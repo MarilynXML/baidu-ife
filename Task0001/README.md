@@ -6,7 +6,7 @@
 
 Task1: 零基础HTML编码
 * [任务要求](http://ife.baidu.com/task/detail?taskId=1)
-DEMO: http://marilynxml.github.io/baidu-ife-2016/Task0001/task1/
+* [DEMO:](http://marilynxml.github.io/baidu-ife-2016/Task0001/task1/)
 
 Task2: 零基础HTML及CSS编码（一）
 * [任务要求](http://ife.baidu.com/task/detail?taskId=2)
