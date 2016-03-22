@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>学习CSS3的新特性</title>
+	<style type="text/css">
+		*{margin: 0; padding: 0;}
+		table{font-size: 14px; font-family: "微软雅黑"; font-weight: bold; margin-top: 20px; margin-left: 30px;}
+		td{border-right: 2px solid #fff;}
+		thead tr{background-color: #000; color: #fff; text-align: left;}
+		tbody tr{color: #000;}
+		tbody tr:nth-child(even){
+			background-color: #ddd;
+		}
+		tbody tr:nth-child(1){
+			color: red;
+		}
+		tbody tr:nth-child(2){
+			color: red;
+		}
+		tbody tr:nth-child(3){
+			color: red;
+		}
+
+		.t2{
+			width: 190px;
+			margin-left: 30px;
+			margin-top: 50px;
+			margin-bottom: 100px;
+			text-align: center;
+		}
+		input{
+			width: 90px;
+			height: 20px;
+			transition: width 1s linear 0.5s;
+			margin: ;
+		}
+		input:focus{
+			width: 180px;
+		}
+
+		
+		.wrap{
+			width: 240px;
+			height: 100px;
+			margin-left: 10px;
+			margin-top: 20px;
+			border: 1px solid blue;
+			position: relative;
+			overflow: hidden;
+		}
+		.slider{
+			width: 300%;
+			font-size: 80px;
+			font-weight: bold;
+			font-family: "Microsoft Yahei";
+		}
+		.slider li{
+			width: 240px;;
+			height: 100%;
+			line-height: 100px;
+			color: #fff;
+			text-align: center;
+			position: absolute;
+		}
+		.slider li:nth-child(1){background-color: green;}
+		.slider li:nth-child(2){background-color: blue;}
+		.slider li:nth-child(3){background-color: purple;}
+		.banner-control{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: 4;
+		}
+		.banner-control a{
+			display: inline-block;
+			text-decoration: none;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			margin-left: 2px;
+			opacity: 0.5;
+  			filter: alpha(opacity=50);
+			background: #000;
+			color: #fff;
+			font-weight: bold;
+			
+		}
+		@keyframes scroll{
+			0%{left: -100%;}
+			100%{left: 0;}
+		}
+		.slider li:target{
+			z-index: 2;
+			animation: scroll 500ms linear;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<caption>CSS3 nth-child()</caption>
+		<thead>
+			<tr>
+				<th>排名</th>
+				<th>网站</th>
+				<th>热度</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="t2">
+		<p>CSS3 transition</p>
+		<input type="text">
+	</div>
+	
+	<p>CSS3 animation</p>
+	<section class="wrap">
+		<ul class="slider">
+			<li id="l1">1</li>
+			<li id="l2">2</li>
+			<li id="l3">3</li>
+		</ul>
+		<section class="banner-control">
+			<a href="#l1">1</a>
+			<a href="#l2">2</a>
+			<a href="#l3">3</a>
+		</section>
+	</section>
+
+	
+</body>
+</html>

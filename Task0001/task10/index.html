@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<style type="text/css">
+		*{padding: 0; margin: 0;}
+
+		.flex-container{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 20px;
+		}
+
+		.flex-item{
+			width: 150px;
+			border: 1px solid red;
+			margin-top: 20px;
+		}
+
+		.i1{height: 120px;}
+		.i2{height: 100px;}
+		.i3{height: 40px;}
+		.i4{height: 200px; margin-top: 0; border: 1px solid blue;}
+
+		@media screen and (max-width: 640px){
+			.flex-container{align-items: baseline;}
+			.i4{order: 1;}
+			.i1{order: 2;}
+			.i2{order: 3;}
+			.i3{order: 4;}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-item i1">1</div>
+		<div class="flex-item i2">2</div>
+		<div class="flex-item i3">3</div>
+		<div class="flex-item i4">4</div>
+	</div>
+</body>
+</html>
