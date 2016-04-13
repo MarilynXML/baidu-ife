@@ -21,7 +21,8 @@
 * [DEMO](http://marilynxml.github.io/baidu-ife-2016/Task0002/Task0016/)
  
 
-####Task0017: 零基础JavaScript编码（五）DOM实现不同城市空气质量指数柱状图表显示
+####Task0017: 零基础JavaScript编码（五）
+#####DOM实现不同城市空气质量指数柱状图表显示
 * [任务要求](http://ife.baidu.com/task/detail?taskId=17)
 * [DEMO](http://marilynxml.github.io/baidu-ife-2016/Task0002/Task0017/)
  
