@@ -14,4 +14,9 @@
 * 任务代码见[Task0001](https://github.com/MarilynXML/baidu-ife-2016/tree/master/Task0001)
 
 
+####Task0001：学习JS，完成任务
+* [任务详细概述](http://mp.weixin.qq.com/s?__biz=MzA4MjUyNjY3Nw==&mid=402057593&idx=1&sn=ef20d1808470688bee1c8e242349b47c#rd)
+* 任务代码见[Task0002](https://github.com/MarilynXML/baidu-ife-2016/tree/master/Task0002)
+
+
      
