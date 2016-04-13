@@ -51,6 +51,11 @@
 ####Task12: 学习CSS 3的新特性
 * [任务要求](http://ife.baidu.com/task/detail?taskId=12)
 * [DEMO](http://marilynxml.github.io/baidu-ife-2016/Task0001/task12/)
+ 
+
+####Task0001: 用HTML和CSS设计博客页面
+* [DEMO](http://marilynxml.github.io/baidu-ife-2016/Task0001/task0001/)
+
 
 
 
