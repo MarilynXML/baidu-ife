@@ -1,0 +1,879 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main-center{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+/*
+.clearfix{overflow:auto;_height:1%}*/
+/*.clearfix{overflow:hidden;_zoom:1;}*/
+
+li{ list-style: none;}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	text-indent: 2em;
+}
+
+.font-hei{
+	font-family: 'Microsoft YaHei', 'SimHei', 'STHeiti', sans-serif;
+}
+
+.font-song{
+	font-family: 'SimSun', 'STSong', serif;
+}
+
+body{
+	background-color: #eee;
+}
+
+input{
+	outline: none;
+}
+
+
+/*index page*/
+
+/*header css*/
+#header{
+	height: 80px;
+	background-color: rgb(82,56,91);
+	color: #fff;
+	position: relative;
+}
+
+#header .center{
+	height: 70px;
+	position: relative;
+}
+
+#header .center h1{
+	position: absolute;
+	left: 0; 
+	bottom: 0;
+	font-weight: normal;
+}
+
+#header .center .nav{
+	position: absolute;
+	right: 0; 
+	bottom: 0px;
+}
+
+#header .center .nav ul li{
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 28px;
+}
+
+
+#header .center .nav li a:hover{
+	text-decoration: underline;
+}
+
+
+/*a给绝对定位和a里面的img给绝对定位的区别*/
+#header a.git img{
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+}
+
+
+
+
+/*pic css*/
+
+
+/*图片比屏幕大时，100%用来平铺在屏幕上*/
+.pic{
+	margin-bottom: 10px;
+}
+
+.pic img{
+	width: 100%;
+}
+
+.pic .location{
+	position: relative;
+}
+
+/*背景渐变色*/
+.pic .location .description{
+	width: 340px;
+	height: 90px;
+	color: #fff;
+	padding: 10px 10px 30px 10px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0) 100%);
+}
+
+.pic .location .description h2{
+	font-size: 14px;
+	font-weight: normal;
+	text-align: right;
+	padding-bottom: 12px;
+}
+
+.pic .location .description p{
+
+	font-size: 12px;
+	line-height: 1.5em;
+}
+ 
+
+
+
+/*main-css*/
+
+#main .wrap{
+	margin-bottom: 110px;
+	overflow: hidden;
+}
+
+#main .wrap .second{
+	margin: 0 10px;
+}
+
+/*等高div*/
+#main .wrap .block{
+	width: 320px;
+	float: left;
+	background-color: #fff;
+	padding-bottom: 5000px;
+	margin-bottom: -5000px;
+}
+
+#main .wrap .block img{
+	padding: 10px 10px 0 10px;
+}
+
+#main .block p{
+	font-size: 12px;
+	line-height: 1.7;
+	padding: 15px 30px 25px 30px;
+}
+
+
+/*personal-css*/
+
+#personal{
+	height: 520px;
+	background-color: #fff;
+}
+
+#personal img{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: -50px;
+	border-radius: 80px;
+}
+
+#personal h2{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Century Gothic' sans-serif;
+}
+
+#personal p{
+	margin: 0 auto;
+	max-width: 600px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+
+/*footer-css*/
+
+#footer{
+	color: #fff;
+	background-color: black;
+	font-size: 12px;
+}
+
+#footer .footer-nav{
+	border-bottom: 1px solid #333;
+	line-height: 36px;
+	text-align: center;
+}
+
+#footer .footer-nav ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+#footer .footer-contact{
+	margin-top: 40px;
+}
+
+#footer .footer-contact ul{
+	width: 200px;
+	float: left;
+}
+
+#footer .footer-contact ul.last{
+	width: auto;
+}
+
+#footer .footer-contact ul .title{
+	margin-bottom: 25px;
+}
+
+#footer .copyright{
+	margin-top: 90px;
+	text-align: center;
+}
+
+#footer .copyright div{
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*blog page*/
+
+
+/*mian-blog css*/
+#main-blog{
+	margin-top: 20px;
+}
+
+#main-blog .left{
+	width: 710px;
+	float: left;
+}
+
+#main-blog .right{
+	width: 260px;
+	float: right;
+}
+
+#main-blog .blog{
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	position: relative;
+}
+
+#main-blog .blog h2{
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #955EA1;
+}
+
+#main-blog .blog h3{
+	font-size: 12px;
+	margin-bottom:15px;
+	color: #666; 
+}
+
+#main-blog .article{
+	font-size: 12px;
+}
+
+#main-blog .article p{
+	line-height: 1.8;
+}
+
+#main-blog .author{
+	float: right;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #959595;
+
+}
+
+#main-blog .sidebar{
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	top: 20px;
+	left: -50px;
+	color: #fff;
+	text-align: center;
+}
+
+
+#main-blog .sidebar .date{
+	height: 40px;
+	line-height: 40px;
+	background-color: #52385B;
+}
+
+#main-blog .sidebar .cate{
+	height: 40px;
+	line-height: 40px;
+	background-color: #955EA1;
+}
+
+#main-blog .page{
+	font-size: 0;
+	text-align: center;
+	margin-bottom: 330px;
+}
+
+
+#main-blog .page a{
+	font-size: 12px;
+	color: black;
+	background-color: #fff;
+	padding: 10px 15px;
+	margin: 0 5px;
+	display: inline-block;
+}
+
+#main-blog .page a:hover{
+	text-decoration: none;
+}
+
+#main-blog .page .disable{
+	color: #ccc;
+	cursor: text;
+}
+
+#main-blog .page .cur{
+	color: #fff;
+	background-color: #955EA1;
+	font-weight: bold;
+	cursor: text;
+}
+
+
+#main-blog .right .search{
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#main-blog .search .text{
+	height: 40px;
+	line-height: 40px;
+	width: 120px;
+	padding: 0 0 0 50px;
+	border: 1px solid #ddd;
+	color: #ccc;
+	border-right: 0;
+	background: url("../img/search.png") no-repeat;
+}
+
+#main-blog .search button{
+	width: 50px;
+	height: 42px;
+	font-size: 20px;
+	background-color: #ddd;
+	color: #fff;
+	border: 1px solid #ddd;
+	position: absolute;
+	cursor: pointer;
+}
+
+#main-blog .cate{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+#main-blog .cate a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: black;
+	border-bottom: 1px solid #ddd;
+	padding-left: 20px;
+	border-left: 4px solid #D8BCE2;
+}
+
+#main-blog .cate a.first{
+	border-top: 1px solid #ddd;
+}
+
+#main-blog .cate a.active{
+	border-left: 4px solid #52385B;
+}
+
+#main-blog .cate a:hover{
+	text-decoration: none;
+	border-left: 4px solid #52385B;
+}
+
+
+#main-blog .calendar{
+	padding: 20px;
+	background-color: #fff;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#main-blog .calendar .year-month{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#main-blog .calendar .year-month a{
+	display: inline-block;
+	color: black;
+}
+
+#main-blog .calendar .year-month-center{
+	padding: 0 50px;
+	letter-spacing: 3px;
+}
+
+#main-blog .calendar table{
+	margin: 0 auto;
+	color: #888;
+	border-collapse: collapse;
+}
+
+#main-blog .calendar table tr{
+	padding: 3px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#main-blog .calendar table th, #main-blog .calendar table td{
+	padding: 8px; 
+	font-weight: normal;
+}
+
+#main-blog .calendar table .today{
+	padding: 4px 3px;
+}
+
+#main-blog .calendar table .today span{
+	display: inline-block;
+	padding: 4px 5px;
+	color: #fff;
+	background-color: #955EA1;
+}
+
+#main-blog .tags{
+	background-color: #fff;
+	padding: 10px 20px;
+}
+
+#main-blog .tags-head{
+	color: #666;
+	margin-bottom: 15px;
+}
+
+#main-blog .tags-body{
+	color: #955EA1;
+}
+
+#main-blog .level1{
+	font-size: 28px;
+}
+
+#main-blog .level2{
+	font-size: 22px;
+}
+
+#main-blog .level3{
+	font-size: 18px;
+}
+
+#main-blog .level4{
+	font-size: 14px;
+}
+
+#main-blog .level5{
+	font-size: 12px;
+}
+
+
+
+
+/*gallery page*/
+
+#main-blog .tab-head{
+	font-size: 0;
+}
+
+#main-blog .tab-head a{
+	display: inline-block;
+	font-size: 14px;
+	padding: 15px 20px 20px 20px;
+	color: #222;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: 4px solid black;
+}
+
+#main-blog .tab-head a:hover{
+	text-decoration: none;
+}
+
+#main-blog .tab-head a[tab-all]{
+	border-top-color: #52385B;
+}
+
+#main-blog .tab-head a[tab-javascriptUtilFunction]{
+	border-top-color: #C6C496;
+}
+
+#main-blog .tab-head a[tab-uiComponents]{
+	border-top-color: #8DBF8C;
+}
+
+#main-blog .tab-head a[tab-framework]{
+	border-top-color: #6AAECD;
+}
+
+#main-blog .tab-head a[tab-application]{
+	border-top-color: #E187A8;
+}
+
+#main-blog .tab-head a[tab-javascriptUtilFunction]:hover{
+	border-top-color: #6E6D54;
+}
+
+#main-blog .tab-head a[tab-uiComponents]:hover{
+	border-top-color: #537252;
+}
+
+#main-blog .tab-head a[tab-framework]:hover{
+	border-top-color: #366A82;
+}
+
+#main-blog .tab-head a[tab-application]:hover{
+	border-top-color: #8D455F;
+}
+
+
+
+/*waterfall css*/
+#main-blog .tab-body{
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.tab-body .water-left{
+	float: left;
+}
+
+.tab-body .water-right{
+	float: right;
+}
+
+.tab-body .waterfall{
+	width: 330px;
+}
+
+.tab-body .card{
+	margin-bottom: 10px;
+}
+
+.tab-body .card img{
+	display: block;
+	width: 160px;
+}
+
+.tab-body .big-card img{
+	display: block;
+	width: 330px;
+}
+
+.tab-body .card-content{
+	padding: 10px;
+	color: #fff;
+}
+
+.tab-body .card-content .letter{
+	width: 27px; 
+	height: 27px;
+	line-height: 27px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	text-align: center;
+	margin-right: 10px;
+	float: left;
+}
+
+.tab-body .card-content .info{
+	overflow: hidden;
+}
+
+.tab-body .card-content .info h3{
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.tab-body .card-content .info p{
+	font-size: 12px;
+	line-height: 1.7;
+	text-indent: 0;
+}
+
+.card-content[J]{
+	background-color: #52385B;
+}
+
+.card-content[A]{
+	background-color: #77572D;
+}
+
+.card-content[F]{
+	background-color: #3B6A44;
+}
+
+.card-content[U]{
+	background-color: #772D2D;
+}
+
+.tab-body .columns{
+	-webkit-column-count: 2;
+	-webkit-column-gap: 10px;
+}
+
+#main-blog .left .more{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#main-blog .left .more a{
+	color: black;
+	font-size: 12px;
+}
+
+#main-blog .left .more a:hover{
+	text-decoration: none;
+}
+
+#main-blog .left .more span{
+	margin-right: 10px;
+}
+
+
+#main-blog .search-in-gallery{
+	padding: 20px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	position: relative;
+}
+
+.search-in-gallery .text{
+	width: 120px;
+	height: 40px;
+	padding-left: 50px;
+	border: 1px solid #ddd;
+	border-right: 0;
+	color: #aaa;
+	background: url(../img/search.png) no-repeat;
+}
+
+.search-in-gallery button{
+	width: 50px;
+	height: 42px;
+	color: #fff;
+	background-color: #ddd;
+	font-size: 20px;
+	border: 1px solid #ddd;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+
+#main-blog .rank{
+	background-color: #fff;
+	color: #666;
+	padding: 20px 15px;
+	font-size: 14px;
+}
+
+#main-blog .rank-title{
+	margin-bottom: 20px;
+}
+
+#main-blog .rank-body .item{
+	/*font-size: 0;*/
+	margin-bottom: 10px;
+}
+
+#main-blog .item div{
+	display: inline-block;
+	font-size: 12px;
+}
+
+#main-blog .item .num{
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	color: #fff;
+	background-color: #52385B;
+	border-radius: 16px;
+	cursor: text;
+	text-align: center;
+}
+
+#main-blog .rank-wrap{
+	width: 100px;
+	margin: 0 15px;
+	height: 16px;
+	border: 1px solid #52385B;
+	position: relative;
+	top: 3px;
+}
+
+#main-blog .rank-scale{
+	height: 16px;
+	background-color: #52385B;
+}
+
+
+
+
+/*about page*/
+.about{
+	height: 1300px;
+	background-color: #fff;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	position: relative;
+	z-index: -2;
+}
+
+.about img{
+	display: block;
+}
+
+.about .time-line{
+	width: 5px;
+	height: 1300px;
+	background-color: #eee;
+	z-index: -1;
+	margin-left: -2px;
+}
+
+.about .absolute-left{
+	position: absolute;
+	left: 50%;
+}
+
+.about .img-person{
+	width: 160px;
+	height: 160px;
+	margin-left: -90px;
+	top: -60px;
+	border-radius: 90px;
+	border: 10px solid #eee;
+}
+
+.about .img-small{
+	width: 100px;
+	height: 100px;
+	border: 5px solid #eee;
+	border-radius: 60px;
+}
+
+
+.about .img-tel{
+	margin-top: 260px;
+	margin-bottom: 110px;
+}
+
+.about .img-edu{
+	margin-bottom: 30px;
+}
+
+.about .year{
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 5px solid #eee;
+	border-radius: 10px;
+	margin-bottom: 35px;
+	font-size: 14px;
+	background-color: #fff;
+
+}
+
+.about .img-intern{
+	margin-bottom: 30px;
+}
+
+.about .time-left{
+	width: 110px;
+	position: absolute;
+	left: 30%;
+	font-size: 20px;
+	text-align: right;
+}
+
+.about .name{
+	top: 130px;
+}
+
+.about .contact{
+	top: 400px;
+}
+
+.about .edu{
+	top: 630px;
+}
+
+.about .intern{
+	top: 980px;
+}
+
+
+.about .time-right{
+	width: 320px;
+	position: absolute;
+	left: 58%;
+	font-size: 14px;
+}
+
+.about .name{
+	line-height: 1.8;
+}
+
+.about .time-right ul{
+	margin-bottom: 35px;
+}
+
+.about .time-right ul li:last-of-type{
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+.about .contact li{
+	margin-bottom: 6px;
+}
