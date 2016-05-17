@@ -30,7 +30,7 @@
 ####Task0018: 基础JavaScript练习（一）
 * [任务要求](http://ife.baidu.com/task/detail?taskId=18)
 * [DEMO](http://marilynxml.github.io/baidu-ife/Task0002/Task0018/)
-* 
+
 
 ####Task0019: 基础JavaScript练习（二）
 * [任务要求](http://ife.baidu.com/task/detail?taskId=19)
