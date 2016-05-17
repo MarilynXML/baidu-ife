@@ -10,6 +10,7 @@
 
 学习HTML、CCS，完成所有任务，深刻理解了 CSS 布局和 BFC 技术，完成实现了一个博客页面的展示。
 * 任务代码见[Task0001](https://github.com/MarilynXML/baidu-ife/tree/master/Task0001)
+* [博客页面DEMO](http://marilynxml.github.io/baidu-ife/Task0001/task0001/)
 * [HTML&CSS笔记](http://marilynxml.github.io/)
 
 
