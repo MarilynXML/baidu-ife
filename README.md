@@ -14,7 +14,7 @@
 * [HTML&CSS笔记](http://marilynxml.github.io/)
 
 
-####Task0001: 
+####Task0002: 
 
 学习JavaScript，封装了一个 util.js 工具库，包含深度克隆、数组去重、添加删除 CSS 样式、简单 Query、封装 Ajax 等功能。
 后面的练习中实现了兴趣列表、倒计时、图片轮播、输入框即时提示、拖拽交互等任务。
