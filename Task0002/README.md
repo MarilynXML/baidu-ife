@@ -37,6 +37,6 @@
 * [DEMO](http://marilynxml.github.io/baidu-ife/Task0002/Task0019/)
  
 
-####Task002: 
+####Task002: 实现兴趣列表、倒计时、图片轮播、输入框即时提示、拖拽交互等任务
 * [任务要求](https://github.com/MarilynXML/baidu-ife/blob/master/Task0002/README1.md)
 * [DEMO]()
